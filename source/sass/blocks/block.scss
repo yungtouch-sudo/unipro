@@ -1,0 +1,18 @@
+.block {
+    display: none;
+}
+
+@media (min-width: $desktop-width) {
+    .block {
+        display: block;
+        width: 20%;
+        min-height: 516px;
+        background-color: #C4C4C4;
+        padding-top: 25px;
+    }
+
+    .block__title {
+        padding-top: 3.1rem;
+        padding-left: 4rem;
+    }
+}

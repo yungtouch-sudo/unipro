@@ -1,0 +1,41 @@
+.header {
+    margin-top: 10px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__btn {
+    width: 42px;
+    height: 42px;
+    border: none;
+    background-color: #0078DC;
+}
+
+@media (min-width: $tablet-width) {
+    .header__logo {
+        width: 105px;
+        height: 78px;
+    }
+
+    .header__btn {
+        margin-top: 18px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .header {
+        border-bottom: 39px solid #0078DC;
+    }
+
+    .header__wrapper {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .header__btn {
+        display: none;
+    }
+}

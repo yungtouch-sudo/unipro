@@ -1,0 +1,53 @@
+.news {
+    padding-top: 20px;
+}
+
+.news__wrapper {
+    min-height: 516px;
+    background-color: #C4C4C4;
+}
+
+.news__title {
+    padding-top: 4rem;
+    padding-left: 4rem;
+}
+
+@media (min-width: $iphone) {
+    .news {
+        background-color: #F0F0F0;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .news {
+        background-color: #fff;
+    }
+
+    .news__wrapper {
+        min-height: 309px;
+    }
+
+    .news__title {
+        font-size: 18px;
+        line-height: 21px;
+        padding-top: 2.2rem;
+        padding-left: 9rem;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .news {
+        width: 42%;
+        padding-top: 0;
+        margin-right: 15px;
+    }
+
+    .news__wrapper {
+        min-height: 516px;
+    }
+
+    .news__title {
+        padding-top: 4.3rem;
+        padding-left: 4.6rem;
+    }
+}

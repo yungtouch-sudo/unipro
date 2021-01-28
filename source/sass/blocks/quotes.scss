@@ -1,0 +1,39 @@
+.quotes {
+    margin-top: 20px;
+}
+
+.quotes__wrapper {
+    min-height: 319px;
+    background-color: #C4C4C4;
+}
+
+.quotes__title {
+    padding-top: 8rem;
+    padding-left: 5rem;
+}
+
+@media (min-width: $tablet-width) {
+    .quotes {
+        margin-top: 10px;
+        width: 25%;
+    }
+
+    .quotes__title {
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 2.6rem;
+        padding-left: 2.5rem;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .quotes {
+        width: 19%;
+    }
+
+    .quotes__title {
+        font-size: 19px;
+        padding-top: 8.5rem;
+        padding-left: 2.6rem;
+    }
+}

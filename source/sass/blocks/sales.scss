@@ -1,0 +1,19 @@
+.sales {
+    display: none;
+}
+
+@media (min-width: $desktop-width) {
+    .sales {
+        display: block;
+        width: 20%;
+        min-height: 516px;
+        background-color: #C4C4C4;
+        padding-top: 25px;
+        margin-right: 15px;
+    }
+
+    .sales__title {
+        padding-top: 2.3rem;
+        padding-left: 0.6rem;
+    }
+}

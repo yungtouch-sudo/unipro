@@ -1,0 +1,36 @@
+.main {
+    background-color: #F0F0F0;
+}
+
+@media (min-width: $iphone) {
+    .main {
+        background-color: #fff;
+    }
+
+    .main__union {
+        background-color: #F0F0F0;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .main__union {
+        display: flex;
+        background-color: #fff;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .main {
+        margin-top: 15px;
+    }
+
+    .main__union {
+        justify-content: space-between;
+    }
+
+    .main__union-second {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 25px;
+    }
+}
